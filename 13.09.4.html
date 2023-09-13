@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .column{
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 100px;  
+        }
+        .columnn{
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 100px;  
+        }
+        .klasa{
+            float: left;
+            width: 100%;
+            padding: 10px;
+            height: 100px;
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 900px){
+            .column{
+                width: 50%;
+            }
+        }
+            @media screen and (max-width: 800px){
+            .column{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div class="row">
+        <div class="column" style="background-color:rgb(223, 253, 243);">
+            <h2 style="text-align: center;">Kolumna1</h2>    
+        <arctile>
+        </arctile>
+        </div>
+        <div class="column" style="background-color:goldenrod;">
+            <h2 style="text-align: center;">Kolumna2</h2>
+        <arcticle>
+        </arcticle>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+            <h2 style="text-align: center;">Kolumna3</h2>
+        <article>
+        </article>
+        </div>
+        <div class="column" style="background-color:#ddd;">
+            <h2 style="text-align: center;">Kolumna4</h2>
+        <article>
+        </article>
+        </div>
+</body>
+</html>
