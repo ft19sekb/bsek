@@ -168,7 +168,7 @@ p.round3 {
     </ul>
   </div>
 </nav>
-<div style="background: url(tlo.jpg)"></div>
+<div  style="background: url(tlo.jpg) fixed">
 <div class="container">
     <br>
   <div class="row">
@@ -246,6 +246,7 @@ p.round3 {
     </div>
     </div>
   </div>
+</div>
 </div>
 <br>
 <div class="footer-clean">
