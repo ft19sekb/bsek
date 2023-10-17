@@ -147,7 +147,7 @@ p.round3 {
 <body>
 
 <div class="p-5 bg-primary text-white text-center" style="background: url(nsxtrack.jpg) center; height: 400px; font-family: Open Sans;">
-  <h1 style="text-align:center; height:50px; color: rgb(226, 217, 217);">The history of the greatest car brand: HONDA</h1>
+  <h1 style="text-align:center; height:50px; color: rgb(226, 217, 217);">History of the greatest car brand: HONDA</h1>
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
